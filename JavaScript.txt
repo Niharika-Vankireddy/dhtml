@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JavaScript</title>
+</head>
+<body>
+	<p>JavaScript("JS" for short) is a full-fledged dynamic programming language that can add interactivity to a website.<br> 	
+	variable declaration:  let myVariable = "Bob";<br>
+	retrieve the value by calling the variable name: myVariable<br>
+        comments: 1.   /* .........................*/<br>
+		  2.  // <br>
+	functions: let myVariable = document.querySelector('h1');
+                   alert('hello!')
+</body>
+</html>
