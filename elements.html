@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Date</title>
+</head>
+<body>
+	<h2>Javascript new date</h2>
+	<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+	<p id="demo"></p>
+	
+       <button onclick="this.innerHTML=Date()">The time is?</button>
+
+	
+	<button onclick="displayDate()">The time is?</button>
+	<script>
+	function displayDate() {
+	  document.getElementById("demo").innerHTML = Date();
+	}
+	</script>
+	
+</body>
+</html>
